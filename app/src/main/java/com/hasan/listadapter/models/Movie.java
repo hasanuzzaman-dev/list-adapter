@@ -14,7 +14,9 @@ public class Movie {
     public Movie() {
     }
 
-    public Movie(String id, String name, String rating) {
+
+
+    public Movie(String name, String rating) {
         this.id = UUID.randomUUID().toString();
         this.name = name;
         this.rating = rating;

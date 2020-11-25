@@ -4,6 +4,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ImageButton;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -41,7 +42,7 @@ public class MovieListAdapter extends ListAdapter<Movie, MovieListAdapter.MovieV
 
     class MovieViewHolder extends RecyclerView.ViewHolder {
         TextView nameTV, ratingTV;
-        Button deleteBtn;
+        ImageButton deleteBtn;
 
         public MovieViewHolder(@NonNull View itemView) {
             super(itemView);
